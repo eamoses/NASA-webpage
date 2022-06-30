@@ -4,15 +4,27 @@ body {
 }
 
 .banner-image {
-    border: thin solid black;
+    background-position: center;
+    text-align: center;
+    line-height: 450px;
+    color: white;
     height: 450px;
     width: 1000px;
     margin: 50px 0px 20px 0px;
     background-image: url("https://spaceplace.nasa.gov/gallery-space/en/NGC2336-galaxy.en.jpg");
 }
 
+h1 {
+    font-size: 100px;
+}
+
+.center h1 {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
 .content {
-    border: thin solid black;
     height: 324px;
     width: 1000px;
     display: flex;
